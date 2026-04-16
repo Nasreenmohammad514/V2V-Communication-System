@@ -4,6 +4,8 @@ from vehicles import Vehicle
 from communication import broadcast_message
 import pandas as pd
 
+import matplotlib.pyplot as plt
+
 st.set_page_config(page_title="V2V Communication", layout="wide")
 
 st.title("🚗 Vehicle-to-Vehicle Communication System Simulation")
